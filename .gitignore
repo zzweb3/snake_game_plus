@@ -1,0 +1,24 @@
+# Jetbrains
+.idea
+
+# Visual Studio Code
+.vscode
+
+# Mac book DS_Store
+**/.DS_Store
+
+# release WASM code
+*/res
+
+# build target
+target
+*/target
+*/*/target
+*/*/*/target
+*/*/*/*/target
+
+# node_modules
+snake_game/www/node_modules/
+
+# public
+snake_game/www/public/

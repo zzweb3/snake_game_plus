@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>是男人就坚持30秒-Rust Webasemmbly Snape-Game</title>
+    </head>
+    <body>
+        <div class="content-wrapper">
+<!--            <h1 class="h-css">【挑战赛】是男人就坚持30秒!!!</h1>-->
+            <img src="./icon.png"/>
+            <hr>
+            <div class="game-panel">
+                <table>
+                    <tr>
+                        <td>
+                            <div>
+                                <img src="./logo.png" width="150" height="150">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <div class="flex">
+                                    <div class="label">
+                                        Status:
+                                    </div>
+                                    <div id="game-status">
+                                        None
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <div class="label">
+                                        Points:
+                                    </div>
+                                    <div style="background: grey; font-size:20px; color:white" id="points">
+
+                                    </div>
+                                </div>
+                                <div id="flex">
+                                    <button class="button button2" id="game-control-btn">
+                                        Play
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+            <div class="div-canvas">
+                <canvas id="snake-canvas"></canvas>
+            </div>
+            <div class="flex">
+                <br>
+                <label style="color: indianred; font-size: smaller">
+                    【游戏规则】：点击“play”按钮游戏开始，并计时，贪车蛇每吃到一个果实，就奖励1分，且运动速度加快，
+                    <br>30秒时刻游戏自动结束（蛇撞到躯干也会结束），总积分超过5分，会有NFT奖励。
+                    <br> 蛇贪车蛇游戏，有蛇头，蛇体，蛇尾！
+                    <br>【开发人】：州州 &nbsp;&nbsp;&nbsp;&nbsp;  👉 <a href="https://github.com/zzweb3/near_snake_game" target="_blank"> Github源码</a>
+
+                </label>
+            </div>
+        </div>
+        <script src="./bootstrap.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </body>
+</html>
